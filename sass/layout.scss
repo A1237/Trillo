@@ -11,7 +11,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-Grey-light-1);
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +31,29 @@
 }
 
 .hotel-view {
-  background-color: rgb(219, 154, 14);
+
   flex-grow: 1;
-  height: 80rem;
+
+}
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  border-bottom: var(--line);
+  background-color: var(--color-Grey-light-1);
+}
+
+
+.description {
+  font-size: 1.4rem;
+  background-color: #fff;
+  padding: 3rem;
+  box-shadow: 0 2rem 5rem var(--shadow-light);
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
+  background-color: yellowgreen;
+  flex: 1 0 0;
 }
